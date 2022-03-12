@@ -20,5 +20,28 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+nav {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fridge_icon,
+.star_icon,
+.clock_icon {
+    fill: #D2D2D2;
+    height: 48px;
 }
