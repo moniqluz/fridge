@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 
     text-decoration: none;
 }
@@ -10,9 +11,8 @@
 body {
     background-image: url("../assets/img/triangles.png");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-
-    font-family: 'Poppins', sans-serif;
 
     display: flex;
     flex-direction: column;
@@ -23,25 +23,121 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 80px 0px 44px 0px;
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
+    width: 280px;
+
+    margin-top: 40px;
 }
 
 .title {
     text-align: center;
 }
 
+/* estilo padrão link: */
 .link {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #D2D2D2;
+    transition: all .3s ease-in;
+}
+
+.link > svg {
+    transition: all .3s ease-in;
 }
 
 .fridge_icon,
 .star_icon,
 .clock_icon {
     fill: #D2D2D2;
-    height: 48px;
+    height: 28px;
+}
+
+/* estilo ao passar o mouse em cima (hover): */
+.link:hover {
+    color: #00726E;
+}
+
+.link:hover > .fridge_icon,
+.link:hover > .star_icon,
+.link:hover > .clock_icon {
+    fill: #00726E;
+}
+
+/* estilo específico (ilusão de estado)  */
+.link_active {
+    color: #00726E;
+}
+
+.link_active > .fridge_icon,
+.link_active > .star_icon,
+.link_active > .clock_icon {
+    fill: #00726E;
+}
+
+.items{
+    border: 0px;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    max-height: 60%;
+    min-height: 60vh;
+}
+
+.green_button{
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px 27px 12px 16px;
+    color: #fff;
+    background-color: #33AFAA;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: -20px;
+    position: relative;
+    align-self: center;
+}
+
+.gray_button{
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: #00726E;
+    background-color: #EAF3F1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-self: center;
+}
+
+.gray_button > svg {
+    fill: #00726E;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
 }
