@@ -3,5 +3,170 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 55px 115px 0px 118px;
+    margin: 18px 115px 0px 118px;
+}
+
+.minus_button {
+    background-color: #FEECEC80;
+    transition: all .3s ease-in;
+}
+
+.plus_button{
+    background-color: #E1F9F480;
+    transition: all .3s ease-in;
+}
+
+.minus_icon {
+    fill: #EF7A7A80;
+    transition: all .3s ease-in;
+}
+
+.plus_icon {
+    fill: #33AFAA80;
+    transition: all .3s ease-in;
+}
+
+.minus_button:hover {
+    background-color: #FEECEC;
+}
+
+.plus_button:hover {
+    background-color: #E1F9F4;
+}
+
+.minus_button:hover > .minus_icon{
+    fill: #EF7A7A;
+}
+
+.plus_button:hover > .plus_icon{
+    fill: #33AFAA;
+}
+
+.filter_button {
+    justify-content: space-between;
+    height: 33px;
+    width: 33px;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus_minus {
+    display: flex;
+    flex-direction: row;
+
+}
+.transaction_title {
+    display: flex;
+    align-self: center;
+    margin: 12px 61px 0px 64px;
+    align-items: center;
+}
+
+.transaction_title > h3 {
+    margin: 0px 24px;
+}
+
+.transaction_title > span {
+    width: 24px;
+    height: 3px;
+    background-color: #f1f1f1;
+}
+
+.list_transactions {
+    padding: 0px 64px;
+    overflow-y: scroll;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 0px;
+    border-bottom: 1px solid #EAF3F1;
+}
+
+.svg_transaction {
+    width: 18px;
+    height: 18px;
+}
+
+.info_time {
+    display: flex;
+    flex-direction: column;
+}
+
+.hour > p,
+.date > p  {
+    margin-left: 12px;
+    color: #B8B8B8;
+    font-size: 12px;
+}
+
+.hour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_transaction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info_transaction > h4 {
+    margin-right: 12px;
+}
+
+.clock_icon,
+.calendar_icon {
+    fill: #B8B8B8;
+}
+
+.transaction_type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.transaction_type > h4 {
+    margin-left: 12px;
+}
+
+.type_down {
+    background-color: #EF7A7A10;
+}
+
+.type_up {
+    background-color: #33AFAA10;
+}
+
+.type_down > h4 {
+    color: #EF7A7A;
+}
+
+.type_up > h4 {
+    color: #33AFAA;
+}
+
+.arrow_up {
+    fill: #33AFAA;
+}
+.arrow_down {
+    fill: #EF7A7A;
 }
