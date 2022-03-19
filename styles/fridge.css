@@ -17,6 +17,14 @@
 }
 
 .image {
-    height: 72px;
-    width: 72px;
+    height: 8vh;
+    width: 8vh;
+}
+
+.item_info > .item_name {
+    font-size: .8rem;
+}
+
+.item_info > .item_unities {
+    font-size: .6rem;
 }

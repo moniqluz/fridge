@@ -61,12 +61,13 @@
 .transaction_title {
     display: flex;
     align-self: center;
-    margin: 12px 61px 0px 64px;
+    margin: 12px 10vw 0px 10vw;
     align-items: center;
 }
 
 .transaction_title > h3 {
-    margin: 0px 24px;
+    margin: 0px 2vh;
+    font-size: .9rem;
 }
 
 .transaction_title > span {
@@ -127,6 +128,7 @@
 
 .info_transaction > h4 {
     margin-right: 12px;
+    font-size: .8rem;
 }
 
 .clock_icon,
@@ -146,6 +148,7 @@
 
 .transaction_type > h4 {
     margin-left: 12px;
+    font-size: .6rem;
 }
 
 .type_down {

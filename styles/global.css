@@ -28,7 +28,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 80px 0px 44px 0px;
+    margin: 8vh 0px 5vh 0px;
 }
 
 nav {
@@ -36,11 +36,19 @@ nav {
     justify-content: space-between;
     width: 280px;
 
-    margin-top: 40px;
+    margin-top: 3vh;
 }
 
 .title {
     text-align: center;
+}
+
+.title > h1 {
+    font-size: 1.5rem;
+}
+
+.title > h3 {
+    font-size: .9rem;
 }
 
 /* estilo padrão link: */
@@ -50,6 +58,7 @@ nav {
     align-items: center;
     color: #D2D2D2;
     transition: all .3s ease-in;
+    font-size: .8rem;
 }
 
 .link > svg {
@@ -60,7 +69,7 @@ nav {
 .star_icon,
 .clock_icon {
     fill: #D2D2D2;
-    height: 28px;
+    height: 24px;
 }
 
 /* estilo ao passar o mouse em cima (hover): */
@@ -95,8 +104,7 @@ nav {
     position: absolute;
     bottom: 0px;
     position: fixed;
-    bottom: 0px;
-    max-height: 60%;
+    top: 40vh;
     min-height: 60vh;
 }
 
