@@ -77,7 +77,7 @@
 }
 
 .list_transactions {
-    padding: 0px 64px;
+    padding: 0px 8vw 0px 12vw;
     overflow-y: scroll;
 }
 
@@ -90,8 +90,8 @@
 }
 
 .svg_transaction {
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
 }
 
 .info_time {
