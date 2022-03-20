@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0px;
@@ -106,6 +108,24 @@ nav {
     top: 40vh;
     min-height: 60vh;
     position: absolute;
+}
+
+.items_title {
+    display: flex;
+    align-self: center;
+    margin: 12px 10vw 0px 10vw;
+    align-items: center;
+}
+
+.items_title > h3 {
+    margin: 0px 2vh;
+    font-size: .9rem;
+}
+
+.items_title > span {
+    width: 24px;
+    height: 3px;
+    background-color: #f1f1f1;
 }
 
 .green_button{

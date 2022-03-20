@@ -58,23 +58,6 @@
     flex-direction: row;
 
 }
-.transaction_title {
-    display: flex;
-    align-self: center;
-    margin: 12px 10vw 0px 10vw;
-    align-items: center;
-}
-
-.transaction_title > h3 {
-    margin: 0px 2vh;
-    font-size: .9rem;
-}
-
-.transaction_title > span {
-    width: 24px;
-    height: 3px;
-    background-color: #f1f1f1;
-}
 
 .list_transactions {
     padding: 0px 8vw 0px 12vw;
