@@ -173,3 +173,15 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
 }
+
+@media (min-width: 460px) {
+  .items {
+    width: 420px;
+  }
+  .list_transactions {
+    padding: 0px 3vw 0px 4vw !important;
+  }
+  .items_title {
+    margin: 32px 4vw 16px 4vw !important;
+  }
+}
