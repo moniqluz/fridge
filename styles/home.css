@@ -1,5 +1,6 @@
 section{
     text-align: center;
+    line-break: strict;
 }
 
 .subtitle {
@@ -10,3 +11,15 @@ section{
 .gray_button {
     margin-bottom: 48px;
 }
+
+.subtitle > h4 {
+    font-size: 20px;
+}
+
+.subtitle > p {
+    font-size: 16px;
+    color: #8D8D8D;
+    height: 45px;
+    width: 272px;
+    padding-inline-start: 26px;
+}    
